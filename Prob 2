@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        int n3 = sc.nextInt();
+        int sum = n1 + n2+ n3;
+        
+        if(sum == 180) {
+            System.out.println("Triangle can be formed");
+        }
+        else {
+            System.out.println("Triangle cannot be formed");
+        }
+        
+    }
+}
